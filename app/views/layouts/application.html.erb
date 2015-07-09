@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>gulp-rails</title>
+  <!-- Be sure to wrap filenames with corresponding asset path helper so we
+       can fetch the correct file from the manifest. -->
+  <%= stylesheet_link_tag stylesheet_path('application'), media: 'all' %>
+  <%= javascript_include_tag javascript_path('application') %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
