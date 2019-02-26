@@ -24,7 +24,3 @@ $ rails new example-app -S --skip-turbolinks
 ```gulp --serve```: Builds the app in production and serves it (watching is not supported in production environment).
 
 See ```gulpfile.js``` for more tasks and custom flags such as ```--skip-uglify```, ```--skip-csso```, etc.
-
-## License
-
-This software is released under the [MIT License](http://opensource.org/licenses/MIT).
