@@ -1,4 +1,4 @@
-# vars-rails
+# vars-rails ![](https://img.shields.io/maintenance/no/2015)
 
 VARIANTE's sample Rails app with Gulp asset pipeline, Browserify, Babel and more.
 
